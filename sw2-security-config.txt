@@ -1,0 +1,10 @@
+conf t
+
+interface gi0/2
+ spanning-tree portfast
+ spanning-tree bpduguard enable
+
+end
+
+show spanning-tree
+show interfaces status
